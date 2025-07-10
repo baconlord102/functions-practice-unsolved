@@ -53,13 +53,25 @@ function getValueWithConditionOne(funcArg1, funcArg2) {
   }
 }
 
-const getValueWithConditionTwo = function(arg1, arg2, arg3) {
-  return arg1 + arg2 + arg3;
+const getValueWithConditionTwo = (funcArg1, funcArg2) => {
+    if (funcArg1 === 40 && funcArg2 === 40){
+    return funcArg1 + funcArg2;
+  } else {
+    return 2 * (funcArg1 + funcArg2);
+
+  }
 }
 
-const getValueWithConditionThree = (arg1, arg2, arg3) => {
-  return arg1 + arg2 + arg3;
+const getValueWithConditionThree = function(funcArg1, funcArg2) {
+    if (funcArg1 === 40 && funcArg2 === 40){
+    return funcArg1 + funcArg2;
+  } else {
+    return 2 * (funcArg1 + funcArg2);
+
+  }
 }
+
+
 
 
 // === TEST YOURSELF ===

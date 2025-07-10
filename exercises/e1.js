@@ -15,7 +15,7 @@
 
 // Your code goes here...
   function logMessage() {
-    console.log('Hello World');
+    console.log('Hello, World!');
   }
 
 
@@ -69,8 +69,8 @@ function logMessageWithMyName(name) {
 */
 
 // Your code goes here...
-function logMessageWithMyName(name, age){ 
-  console.log('my name is ' + name + '. I am ' + age + 'years old');
+function logMyInfo(name, age){ 
+  console.log(`my name is ${name}. I am ${age} years old!`);
 }
 
 
